@@ -76,7 +76,7 @@ function cowinData(pincode) {
         });
         // console.log(data.sessions.length);
         if(data.sessions.length === 0){
-          alert("No data Found")
+          alert("No Vaccinations Available")
         }
         centers = []
       } 
